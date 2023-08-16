@@ -5,6 +5,9 @@
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 2s linear;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Code' , sans-serif; 
 }
 
 .button:hover{
