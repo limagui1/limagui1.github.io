@@ -1,4 +1,4 @@
-.button{
+.button {
     display: inline-block;
     background-color: #e77f67;
     box-shadow: 5px 5px 0px #000;
@@ -10,7 +10,7 @@
     font-family: 'Fira Code' , sans-serif; 
 }
 
-.button:hover{
+.button:hover {
     transform: scale(1.08);
 }
 /*sempre utilizar . com class*/
