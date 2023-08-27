@@ -10,13 +10,27 @@
 .main-carousel::after {
     content: '' ;
     position: absolute;
-    left: 0;
+    left: 40px;
     top: 45px;
     display: block;
     height: 5px;
-    width: 100%;
+    width: calc(100% - 80px);
     background-color: #000;
 }
+
+.main-carousel::before {
+    content: '' ;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 45px;
+    display: block;
+    border: 4px dashed #000;
+    height: 5px;
+    width: 100% ;
+    background-color: #000;
+}
+
 
 .main-carousel .button-arrow {
     position: absolute;
@@ -30,4 +44,15 @@
 
 .main-carousel .button-arrow.-right {
     right: 15px;
+}
+
+.main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
 }
