@@ -14,3 +14,7 @@
     transform: scale(1.08);
 }
 /*sempre utilizar . com class*/
+
+.main-button.-full {
+    width: 100%;
+}
